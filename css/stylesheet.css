@@ -47,8 +47,8 @@ table {
 	border-spacing: 0;
 }
 
-
-
+/* this is the bottom of the css reset */
+/* ----------------------------------------- */
 
 /* this is top of the navegation */
 nav{
@@ -132,7 +132,8 @@ li{
   display: block;
 }
 /* this is bottom of the navegation */
-
+/* ----------------------------------------- */
+/* ----------------------------------------- */
 
 /* this is top of the images */
 
@@ -142,8 +143,54 @@ li{
   width: 5%;
 }
 
+.hero{
+  border-radius: 50%;
+  width: 30%;
+}
 
 /* this is bottom of the images */
+/* ----------------------------------------- */
+/* ----------------------------------------- */
 
 
+/* this is bottom of the main section */
+body{
+  background-color: lightsteelblue;
+}
+.main-sec{
+  max-width: 80%;
+}
+.hero-sec{
+  margin-left: 25%;
+  color: rgb(55, 58, 58);
+  margin-top: 15%;
+  display: flex;
+  justify-content: space-evenly;
+}
 
+.hero-sec div h1{
+  margin: 2% 0%;
+}
+
+.hero-sec div p{
+  margin: 2% 0%;
+  width: 50%;
+  font-size: 1.5em;
+
+}
+.hero-sec div{
+margin-left: 10%;
+}
+
+.hero-sec div button{
+  margin-top: 2%;
+}
+.myButton {
+  color: rgb(255, 255, 255); font-size: 24px; line-height: 24px; padding: 9px; border-radius: 9px; font-family: Georgia, serif; font-weight: normal; text-decoration: none; font-style: normal; font-variant: normal; text-transform: none; background-image: linear-gradient(to right, rgb(28, 110, 164) 0%, rgb(35, 136, 203) 50%, rgb(20, 78, 117) 100%); box-shadow: rgb(0, 0, 0) 5px 5px 15px 5px; border: 2px solid rgb(28, 110, 164); display: inline-block;}
+  .myButton:hover {
+  background: #1C6EA4; }
+  .myButton:active {
+  background: #144E75; }
+/* this is bottom of the main section  */
+/* ----------------------------------------- */
+/* ----------------------------------------- */
